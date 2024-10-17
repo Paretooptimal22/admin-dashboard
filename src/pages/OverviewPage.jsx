@@ -4,6 +4,8 @@ import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
 import Header from "../components/common/Header.jsx";
 import StatCard from "../components/common/StatCard.jsx";
 import SalesOverviewChart from "../components/overview/SalesOverviewChart.jsx";
+import CategoryDistributionChart from "../components/overview/CategoryDistributionChart.jsx";
+import SalesChannelChart from "../components/overview/SalesChannelChart.jsx";
 
 const OverviewPage = () => {
   return (
@@ -47,6 +49,8 @@ const OverviewPage = () => {
         {/* CHARTS */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverviewChart />
+          <CategoryDistributionChart />
+          <SalesChannelChart />
         </div>
       </main>
     </div>
