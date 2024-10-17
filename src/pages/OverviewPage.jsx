@@ -3,6 +3,7 @@ import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
 
 import Header from "../components/common/Header.jsx";
 import StatCard from "../components/common/StatCard.jsx";
+import SalesOverviewChart from "../components/overview/SalesOverviewChart.jsx";
 
 const OverviewPage = () => {
   return (
@@ -42,6 +43,11 @@ const OverviewPage = () => {
             color="#10B981"
           />
         </motion.div>
+
+        {/* CHARTS */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <SalesOverviewChart />
+        </div>
       </main>
     </div>
   );
