@@ -3,7 +3,7 @@ import { AlertTriangle, DollarSign, Package, TrendingUp } from "lucide-react";
 
 import Header from "../components/common/Header.jsx";
 import StatCard from "../components/common/StatCard.jsx";
-import ProductTable from "../components/products/ProductTable.jsx";
+import ProductsTable from "../components/products/ProductsTable.jsx";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart.jsx";
 import SalesTrendChart from "../components/products/SalesTrendChart.jsx";
 
@@ -46,7 +46,7 @@ const ProductsPage = () => {
           />
         </motion.div>
 
-        <ProductTable />
+        <ProductsTable />
 
         {/* CHARTS */}
         <div className="grid grid-col-1 lg:grid-cols-2 gap-8">
