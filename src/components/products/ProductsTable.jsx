@@ -45,7 +45,7 @@ const PRODUCT_DATA = [
   },
 ];
 
-const ProductTable = () => {
+const ProductsTable = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredProducts, setFilteredProducts] = useState(PRODUCT_DATA);
 
@@ -156,4 +156,4 @@ const ProductTable = () => {
   );
 };
 
-export default ProductTable;
+export default ProductsTable;
