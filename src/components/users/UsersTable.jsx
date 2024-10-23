@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Search } from "lucide-react";
+import { Edit, Search, Trash2 } from "lucide-react";
 
 const USER_DATA = [
   {
@@ -144,10 +144,10 @@ const UsersTable = () => {
 
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
                   <button className="text-indigo-400 hover:text-indigo-300 mr-2">
-                    Edit
+                    <Edit size={18} />
                   </button>
                   <button className="text-red-400 hover:text-red-300">
-                    Delete
+                    <Trash2 size={18} />
                   </button>
                 </td>
               </motion.tr>
